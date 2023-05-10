@@ -52,7 +52,7 @@
 
     .author {
         text-transform: none;
-        font-style: italic;
+        font-style: bold;
     }
     
     .title:hover {
@@ -62,33 +62,26 @@
       transform: scale(1.1);
     }
 
-    .lorem-ipsum {
+    .desc {
       display: none;
-      position: absolute;
-      top: 0;
-      left: 100%;
-      width: 250px;
-      padding: 10px;
-      background-color: #1c1c1c;
-      color: #fff;
-      border-radius: 10px;
-      box-shadow: 5px 5px #ff8c00;
-      font-size: 0.8em;
-      line-height: 1.2;
+      font-style: italic;
+      font-size: 0.6em;
     }
 
-    .title:hover .lorem-ipsum {
+    .title:hover .desc {
       display: block;
     }
   </style>
 </head>
 <body>
-  <h1>Dev Afternoon <br/>18/05/2023</h1>
+  <h1>Freja<br/>Dev Afternoon <br/>18/05/2023</h1>
   
   <ul>
     <li>
       <span class="time">15:00</span>
-      <span class="title">Start with coffee</span>
+      <span class="title">Start with coffee &#9749;
+        <span class="desc">There's no much point <br/>in starting the workshop <br/>without a decent coffee</span>
+      </span>
     </li>
     <li>
         <span class="time">15:15</span>
@@ -96,7 +89,7 @@
             Programming anti-patterns
             <br/>
             <span class="author">Bane</span>
-            <div class="lorem-ipsum">Using patterns sometimes isn't that obvious, knowing </div>
+            <span class="desc">Workshop - presenting common code smells, <br/>anti-patterns and how to address them</span>
         </span>
         
     </li>
@@ -106,6 +99,7 @@
             Flutter learnings
             <br/>
             <span class="author">Dule, Andrija, Kockica</span>
+            <span class="desc">Our learnings while migrating <br/>part of Freja app to Flutter</span>
         </span>
     </li>
     <li>
@@ -114,6 +108,7 @@
             Selenium grid
             <br/>
             <span class="author">Isi</span>
+            <span class="desc">Testing web apps <br/>on a remote Selenium machinery</span>
         </span>
     </li>
     <li>
@@ -122,6 +117,7 @@
             Quantum computing
             <br/>
             <span class="author">Aleksa</span>
+            <span class="desc">Computers of the future, <br/>an intro to quantum computing</span>
         </span>
     </li>
     <li>
@@ -130,6 +126,7 @@
             Latest trends in Android development
             <br/>
             <span class="author">Rista</span>
+            <span class="desc">Technologies and frameworks <br/>at the edge of Android development</span>
         </span>
     </li>
     <li>
@@ -138,6 +135,7 @@
             SQL query optimizer
             <br/>
             <span class="author">Deki</span>
+            <span class="desc">How DBMS works <br/>to efectivelly execute SQL queries</span>
         </span>
     </li>
     <li>
@@ -146,11 +144,15 @@
             Securing web apps
             <br/>
             <span class="author">Mica, Igor</span>
+            <span class="desc">Learnigs and fixes <br/>after pen testing</span>
         </span>
     </li>
     <li>
       <span class="time">19:00</span>
-      <span class="title">End with a beer, or two ...</span>
+      <span class="title">
+        End with a beer, or two &#127866;
+        <span class="desc">or three ... </span>  
+      </span>
     </li>
   </ul>
 </body>
