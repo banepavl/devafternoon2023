@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Developer's Conference</title>
+  <style>
+    body {
+      background-color: #1c1c1c;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin-top: 50px;
+      text-shadow: 3px 3px #ff8c00;
+    }
+    
+    ul {
+      margin-top: 50px;
+      list-style-type: none;
+    }
+    
+    li {
+      font-size: 2em;
+      margin-bottom: 30px;
+      position: relative;
+    }
+    
+    .time {
+      font-size: 0.7em;
+      position: absolute;
+      top: -20px;
+      left: 0;
+      color: #ff8c00;
+      text-shadow: 2px 2px #fff;
+    }
+    
+    .title {
+      margin-left: 100px;
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #ff8c00;
+      border-radius: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      background-color: #1c1c1c;
+    }
+
+    .author {
+        text-transform: none;
+        font-style: italic;
+    }
+    
+    .title:hover {
+      background-color: #ff8c00;
+      color: #1c1c1c;
+      text-shadow: none;
+      transform: scale(1.1);
+    }
+
+    .lorem-ipsum {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 250px;
+      padding: 10px;
+      background-color: #1c1c1c;
+      color: #fff;
+      border-radius: 10px;
+      box-shadow: 5px 5px #ff8c00;
+      font-size: 0.8em;
+      line-height: 1.2;
+    }
+
+    .title:hover .lorem-ipsum {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dev Afternoon <br/>18/05/2023</h1>
+  
+  <ul>
+    <li>
+      <span class="time">15:00</span>
+      <span class="title">Start with coffee</span>
+    </li>
+    <li>
+        <span class="time">15:15</span>
+        <span class="title">
+            Programming anti-patterns
+            <br/>
+            <span class="author">Bane</span>
+            <div class="lorem-ipsum">Using patterns sometimes isn't that obvious, knowing </div>
+        </span>
+        
+    </li>
+    <li>
+        <span class="time">15:45</span>
+        <span class="title">
+            Flutter learnings
+            <br/>
+            <span class="author">Dule, Andrija, Kockica</span>
+        </span>
+    </li>
+    <li>
+        <span class="time">16:15</span>
+        <span class="title">
+            Selenium grid
+            <br/>
+            <span class="author">Isi</span>
+        </span>
+    </li>
+    <li>
+        <span class="time">16:45</span>
+        <span class="title">
+            Quantum computing
+            <br/>
+            <span class="author">Aleksa</span>
+        </span>
+    </li>
+    <li>
+        <span class="time">17:30</span>
+        <span class="title">
+            Latest trends in Android development
+            <br/>
+            <span class="author">Rista</span>
+        </span>
+    </li>
+    <li>
+        <span class="time">18:00</span>
+        <span class="title">
+            SQL query optimizer
+            <br/>
+            <span class="author">Deki</span>
+        </span>
+    </li>
+    <li>
+        <span class="time">18:30</span>
+        <span class="title">
+            Securing web apps
+            <br/>
+            <span class="author">Mica, Igor</span>
+        </span>
+    </li>
+    <li>
+      <span class="time">19:00</span>
+      <span class="title">End with a beer, or two ...</span>
+    </li>
+  </ul>
+</body>
+</html>
